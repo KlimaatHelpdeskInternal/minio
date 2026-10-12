@@ -17,17 +17,6 @@ services:
   disk:
     name: data
     mountPath: /data
-  envVars:
-  - key: MINIO_ROOT_USER
-    generateValue: true
-  - key: MINIO_ROOT_PASSWORD
-    generateValue: true
-  - key: HOST
-    value: "0.0.0.0"
-  - key: PORT
-    value: 9000
-  - key: CONSOLE_PORT
-    value: 9090
   # Uncomment the following key/value pair if you are removing the
   # 'minio-console' web service
   # - key: MINIO_BROWSER
